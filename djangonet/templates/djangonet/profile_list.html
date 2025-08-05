@@ -1,4 +1,4 @@
-<!-- dwitter/templates/dwitter/profile_list.html -->
+<!-- djangonet/templates/djangonet/profile_list.html -->
 
 {% extends 'base.html' %}
 
@@ -10,7 +10,7 @@
 
     <div class="block">
       <div class="card">
-        <a href="#">
+        <a href="{% url 'djangonet:profile' profile.id %}">
           <div class="card-content">
             <div class="media">
               <div class="media-left">
